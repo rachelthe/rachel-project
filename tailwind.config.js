@@ -11,7 +11,7 @@ module.exports = {
     colors: {
       ...defaultTheme.colors,
       primary: {
-        900: "#742A2A",
+        900: "#E6E6FA",
         800: "#9B2C2C",
         700: "#AF1818",
         600: "#C12C27",
