@@ -16,12 +16,12 @@ export default function Home() {
           <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
           <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
             <div>
-              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                How am I
-              </h3>
+              <h4 className="mt-2 text-3x1 leading-8 font-extrabold tracking-tight text-red-300 sm:text-4xl">
+                About Me
+              </h4>
             </div>
           </div>
-          <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+          <div className="mt-0 lg:grid lg:grid-cols-2 lg:gap-0">
             <div className="relative lg:row-start-1 lg:col-start-2">
               <svg
                 className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
@@ -91,21 +91,61 @@ export default function Home() {
                 </figure>
               </div>
             </div>
-            <div className="mt-8 lg:mt-0">
+            <div className="mt-52 lg:mt-0">
               <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                <p className="text-lg text-gray-500">Very good!</p>
+                <p className="text-lg text-gray-500"></p>
               </div>
-              <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+              <div className="mt-0 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
                 <p>
-                  Alma mater:
+                  <h2>Education History</h2>
+
                   <ul>
-                    <li>Yew Tee Primary School</li>
-                    <li>River Valley High</li>
-                    <ol>
-                      Took history, economics, literature and mathematics for A
-                      levels!
-                    </ol>
-                    <li>Nanyang Technological University</li>
+                    <li>
+                      <div>
+                        <span className="font-black">2004-2009</span> Yew Tee
+                        Primary School
+                      </div>
+                    </li>
+                    <li>
+                      {" "}
+                      <div>
+                        <span className="font-black">2010-2016</span> River
+                        Valley High School
+                      </div>
+                      <span className="text-sm">
+                        <ol>
+                          Subject combination: <br /> History(H2)
+                          <br /> Economics(H2)
+                          <br />
+                          Literature(H2) <br />
+                          Mathematics(H2)
+                        </ol>
+                      </span>
+                    </li>
+
+                    <li>
+                      {" "}
+                      <div>
+                        <span className="font-black">2018-Current</span> Nanyang
+                        Technological University
+                      </div>
+                      <span className="text-sm">
+                        <ol>
+                          {" "}
+                          Hall Commitments:
+                          <br />
+                          Sports 2019
+                          <br />
+                          Hockey -
+                          <br />
+                          Basketball
+                          <br />
+                          CCA and position: <br />
+                          WSC <br />
+                          Modules taken: <br />{" "}
+                        </ol>
+                      </span>
+                    </li>
                   </ul>
                 </p>
                 <p>
